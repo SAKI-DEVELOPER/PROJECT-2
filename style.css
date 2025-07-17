@@ -115,3 +115,45 @@ span {
     font-family: "Courier New", Courier, monospace;
     color: rgb(99, 99, 99);
 }
+
+@media (max-width: 450px) {
+    .center {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 90vw;
+    height: 90vh;
+    padding-left: 3.3%;
+    padding-right: 3.3%;
+}
+
+.passwordContainer {
+    /* border: 2px solid red; */
+    height: 24%;
+    width: 26%;
+    min-width: 310px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: flex-start;
+    border-radius: 1rem;
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: pink;
+    box-shadow: -2px 2px 5px rgb(155, 155, 155);
+    margin-top: 20%;
+}
+    .active {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #8dff92;
+    width: 18rem;
+    padding: 1rem 0rem 1rem 0rem;
+    float: right;
+    border-radius: 1rem;
+    font-size: 20px;
+    text-align: center;
+    color: #1d1d1d;
+    margin-top: -30%;
+}
+}
