@@ -1,0 +1,117 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 90vh;
+    padding-left: 3.3%;
+    padding-right: 3.3%;
+}
+
+.passwordContainer {
+    /* border: 2px solid red; */
+    height: 24%;
+    width: 26%;
+    min-width: 310px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: flex-start;
+    border-radius: 1rem;
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: pink;
+    box-shadow: -2px 2px 5px rgb(155, 155, 155);
+}
+
+.passwordTitle {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.passwordInput{
+    width: 100%;
+    display: flex;
+}
+.passwordInput input {
+    width: 90%;
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    border: 2px solid #000;
+    border-radius: 0.8rem;
+    background-color: transparent;
+    font-size: 24px;
+    outline: none;
+    
+}
+
+.generatePassword {
+    padding: 0.7rem 1rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    /* border: 2px solid red; */
+}
+
+.buttons button {
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.buttons button:hover {
+    transition: all 0.3s;
+    background-color: #00b609;
+    color: #fff;
+}
+
+.buttons button:active {
+    
+    background-color: #00b609;
+    color: #fff;
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+}
+
+.notification-hidden {
+    visibility: hidden;
+}
+.active {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #8dff92;
+    width: 18rem;
+    padding: 1rem 0rem 1rem 0rem;
+    float: right;
+    border-radius: 1rem;
+    font-size: 20px;
+    text-align: center;
+    color: #1d1d1d;
+}
+
+i {
+    font-size:36px; 
+    margin-top: 0.8rem; 
+    margin-left: -3rem; 
+    justify-self: flex-end;
+    opacity: 0.5;
+    color:rgb(0, 0, 0);
+    
+}
+
+i:hover {
+opacity: 0.95;
+cursor: pointer;
+transition: 0.4s;
+}
+
+span {
+    font-family: "Courier New", Courier, monospace;
+    color: rgb(99, 99, 99);
+}
